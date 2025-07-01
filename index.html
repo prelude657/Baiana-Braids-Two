@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baiana Braids - Salão de Tranças</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>BAIANA BRAIDS</h1>
+                    <span>BEAUTY & CARE</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#testimonials">Depoimentos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <!-- EDITÁVEL: Título principal da página -->
+            <h1 class="hero-title">Transforme seu visual com as melhores tranças</h1>
+            <!-- EDITÁVEL: Subtítulo/descrição -->
+            <p class="hero-subtitle">Especialistas em tranças e penteados afro com mais de 10 anos de experiência</p>
+            <a href="#contact" class="cta-button">Agende seu horário</a>
+        </div>
+        <div class="hero-image">
+            <!-- EDITÁVEL: Substitua por sua imagem principal -->
+            <div class="placeholder-image">Imagem Hero</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <!-- EDITÁVEL: Título da seção sobre -->
+                    <h2>Sobre o Baiana Braids</h2>
+                    <!-- EDITÁVEL: Descrição do salão (parágrafo 1) -->
+                    <p>Somos especialistas em tranças e penteados afro, oferecendo serviços de alta qualidade com técnicas modernas e tradicionais. Nossa missão é realçar a beleza natural de cada cliente, proporcionando uma experiência única e transformadora.</p>
+                    <!-- EDITÁVEL: Descrição do salão (parágrafo 2) -->
+                    <p>Com mais de 10 anos de experiência, nossa equipe é formada por profissionais qualificados e apaixonados pela arte de trançar cabelos.</p>
+                    <div class="about-stats">
+                        <!-- EDITÁVEL: Estatísticas do salão -->
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Clientes satisfeitas</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Anos de experiência</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Tipos de tranças</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <!-- EDITÁVEL: Substitua por imagem do seu salão -->
+                    <div class="placeholder-image">Imagem do Salão</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Nosso Portfólio</h2>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="box-braids">Box Braids</button>
+                <button class="filter-btn" data-filter="cornrows">Cornrows</button>
+                <button class="filter-btn" data-filter="twists">Twists</button>
+                <button class="filter-btn" data-filter="locs">Locs</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-item" data-category="box-braids">
+                    <div class="placeholder-image">Box Braids 1</div>
+                    <div class="portfolio-overlay">
+                        <h3>Box Braids Clássicas</h3>
+                        <p>Tranças soltas e elegantes</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cornrows">
+                    <div class="placeholder-image">Cornrows 1</div>
+                    <div class="portfolio-overlay">
+                        <h3>Cornrows Modernas</h3>
+                        <p>Tranças rentes ao couro cabeludo</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="twists">
+                    <div class="placeholder-image">Twists 1</div>
+                    <div class="portfolio-overlay">
+                        <h3>Passion Twists</h3>
+                        <p>Tranças torcidas com movimento</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="box-braids">
+                    <div class="placeholder-image">Box Braids 2</div>
+                    <div class="portfolio-overlay">
+                        <h3>Jumbo Box Braids</h3>
+                        <p>Tranças grossas e impactantes</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="locs">
+                    <div class="placeholder-image">Locs 1</div>
+                    <div class="portfolio-overlay">
+                        <h3>Faux Locs</h3>
+                        <p>Dreadlocks temporários</p>
+                    </div>
+                </div>
+                <div class="portfolio-item" data-category="cornrows">
+                    <div class="placeholder-image">Cornrows 2</div>
+                    <div class="portfolio-overlay">
+                        <h3>Cornrows com Design</h3>
+                        <p>Padrões geométricos únicos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Box Braids</h3>
+                    <p>Tranças soltas e versáteis, perfeitas para o dia a dia</p>
+                    <span class="price">A partir de R$ 150</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>Cornrows</h3>
+                    <p>Tranças rentes ao couro cabeludo com designs únicos</p>
+                    <span class="price">A partir de R$ 120</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>Twists</h3>
+                    <p>Tranças torcidas com movimento natural</p>
+                    <span class="price">A partir de R$ 180</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Locs</h3>
+                    <p>Dreadlocks temporários ou permanentes</p>
+                    <span class="price">A partir de R$ 200</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Manutenção</h3>
+                    <p>Cuidados e retoques para suas tranças</p>
+                    <span class="price">A partir de R$ 80</span>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>Penteados Especiais</h3>
+                    <p>Criações exclusivas para eventos especiais</p>
+                    <span class="price">A partir de R$ 250</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>O que nossas clientes dizem</h2>
+            <div class="testimonials-slider">
+                <div class="testimonial active">
+                    <div class="testimonial-content">
+                        <p>"Simplesmente perfeito! As tranças ficaram lindas e duraram muito tempo. Recomendo demais!"</p>
+                        <div class="testimonial-author">
+                            <strong>Maria Silva</strong>
+                            <span>Cliente desde 2020</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Profissionais incríveis! Sempre saio de lá me sentindo uma nova pessoa. Atendimento nota 10!"</p>
+                        <div class="testimonial-author">
+                            <strong>Ana Santos</strong>
+                            <span>Cliente desde 2019</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"O melhor salão de tranças da cidade! Qualidade excepcional e preços justos."</p>
+                        <div class="testimonial-author">
+                            <strong>Carla Oliveira</strong>
+                            <span>Cliente desde 2021</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-slide="0"></span>
+                <span class="dot" data-slide="1"></span>
+                <span class="dot" data-slide="2"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <!-- EDITÁVEL: Informações de contato -->
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Endereço</h3>
+                            <!-- EDITÁVEL: Seu endereço -->
+                            <p>Rua das Flores, 123<br>Centro, Salvador - BA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Telefone</h3>
+                            <!-- EDITÁVEL: Seu telefone -->
+                            <p>(71) 99999-9999</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <!-- EDITÁVEL: Seu email -->
+                            <p>contato@baianabraids.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Horário de Funcionamento</h3>
+                            <!-- EDITÁVEL: Seus horários -->
+                            <p>Segunda a Sábado: 8h às 18h<br>Domingo: 9h às 15h</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Seu email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Seu telefone" required>
+                    </div>
+                    <div class="form-group">
+                        <select required>
+                            <option value="">Selecione o serviço</option>
+                            <option value="box-braids">Box Braids</option>
+                            <option value="cornrows">Cornrows</option>
+                            <option value="twists">Twists</option>
+                            <option value="locs">Locs</option>
+                            <option value="manutencao">Manutenção</option>
+                            <option value="especial">Penteado Especial</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Sua mensagem" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>BAIANA BRAIDS</h3>
+                    <p>Transformando vidas através da arte de trançar cabelos.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#about">Sobre</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Rua das Flores, 123, Salvador - BA</p>
+                    <p><i class="fas fa-phone"></i> (71) 99999-9999</p>
+                    <p><i class="fas fa-envelope"></i> contato@baianabraids.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Baiana Braids. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
